@@ -1,0 +1,11 @@
+.cat {
+  width: 400px;
+}
+
+.cat-cont {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 400px;
+  width: 400px;
+}

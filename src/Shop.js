@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
+import "./Shop.css";
 
 const Shop = () => {
   const [cats, setCats] = useState([
@@ -14,13 +15,17 @@ const Shop = () => {
     { name: "Yang", picture: "Yang.jpg", price: 99.99 },
     { name: "Yin", picture: "Yin.jpg", price: 99.99 },
   ]);
+  const [cart, setCart] = useState([]);
+  const [itemNumber, setItemNumber] = useState(0);
+  const [priceTotal, setPriceTotal] = useState(0);
   return (
-    <div>
+    <div id="shop">
       <div>Buy these cats:</div>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <div id="cats-catalog">
+        {cats.map((i) => {
+          return <Card name={i.name} picture={i.picture} price={i.price} />;
+        })}
+      </div>
     </div>
   );
 };

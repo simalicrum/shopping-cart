@@ -1,0 +1,9 @@
+#shop {
+  margin: 20px;
+}
+
+#cats-catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em 1em;
+}

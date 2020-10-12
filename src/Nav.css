@@ -1,0 +1,18 @@
+#nav {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  background: grey;
+  padding: 20px;
+}
+
+#store-name,
+#nav-home,
+#nav-shop {
+  flex-basis: 100px;
+}
+
+#nav-checkout {
+  margin-left: auto;
+  margin-right: 10px;
+}
