@@ -6,7 +6,10 @@
   padding: 20px;
 }
 
-#store-name,
+#store-name {
+  flex-basis: 200px;
+}
+
 #nav-home,
 #nav-shop {
   flex-basis: 100px;

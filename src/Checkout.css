@@ -1,0 +1,16 @@
+#checkout {
+  margin: 20px;
+}
+
+#cart-title {
+  margin-bottom: 20px;
+}
+
+.cartrow {
+  display: flex;
+  width: 400px;
+}
+
+.cartcolumn {
+  flex-basis: 100px;
+}
