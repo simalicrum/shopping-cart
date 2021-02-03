@@ -1,6 +1,6 @@
 # shopping-cart
 
-A shopping cart app built with [React](https://reactjs.org/) using [Firebase](https://firebase.google.com/) for the backend.
+A shopping cart app built with [React](https://reactjs.org/).
 
 Live server: [https://simalicrum.github.io/wheres-waldo/](https://simalicrum.github.io/wheres-waldo/)
 
